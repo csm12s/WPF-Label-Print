@@ -14,7 +14,8 @@ Blazor Excel report editor and label/pdf print: https://github.com/csm12s/Blazor
 
 Image:
 
-![image](https://github.com/user-attachments/assets/3107d628-0661-4539-81b7-c26afbd1a412)
+![image](https://github.com/user-attachments/assets/9a5eea64-f85f-4acf-90e2-06d50e8a9bcd)
+
 
 
 
