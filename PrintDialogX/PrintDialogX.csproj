@@ -1,0 +1,60 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net8.0-windows7.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+     <LangVersion>preview</LangVersion>
+     <UseWPF>true</UseWPF>
+     <UseWindowsForms>True</UseWindowsForms>
+  </PropertyGroup>
+
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">
+    <WarningLevel>0</WarningLevel>
+  </PropertyGroup>
+
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|AnyCPU'">
+    <WarningLevel>0</WarningLevel>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Remove="Properties\**" />
+    <EmbeddedResource Remove="Properties\**" />
+    <None Remove="Properties\**" />
+    <Page Remove="Properties\**" />
+  </ItemGroup>
+
+
+   <ItemGroup>
+     <PackageReference Include="INIFileParserDotNetCore" Version="2.5.2" />
+     <PackageReference Include="System.Drawing.Common" Version="7.0.0" />
+     <PackageReference Include="WindowsContracts.Net.Foundation.UniversalApiContract" Version="5.19041.10" />
+   </ItemGroup>
+
+   <ItemGroup>
+      <Content Include="Effect\Grayscale\GrayscaleEffect.fx" />
+      <Content Include="Resources\PrinterIcons\Network Fax %28Default%29 - Small.png" />
+      <Content Include="Resources\PrinterIcons\Network Fax %28Default%29.png" />
+      <Content Include="Resources\PrinterIcons\Network Fax - Small.png" />
+      <Content Include="Resources\PrinterIcons\Network Fax.png" />
+      <Resource Include="Resources\WindowIcons\label_print.png" />
+      <Resource Include="Resources\PrinterIcons\DefaultPrinterMark - Small.png" />
+      <Resource Include="Resources\PrinterIcons\Fax %28Default%29 - Small.png" />
+      <Resource Include="Resources\PrinterIcons\Fax - Small.png" />
+      <Resource Include="Resources\PrinterIcons\Normal %28Default%29 - Small.png" />
+      <Resource Include="Resources\PrinterIcons\Normal - Small.png" />
+      <Resource Include="Resources\AddPrinter.png" />
+      <Resource Include="Resources\PrinterIcons\DefaultPrinterMark.png" />
+      <Resource Include="Resources\PrinterIcons\Fax %28Default%29.png" />
+      <Resource Include="Resources\PrinterIcons\Fax.png" />
+      <Resource Include="Resources\PrinterIcons\Normal %28Default%29.png" />
+      <Resource Include="Resources\PrinterIcons\Normal.png" />
+      <Resource Include="Resources\WindowIcons\Icon 128x128.png" />
+      <Resource Include="Resources\WindowIcons\Icon 256x256.png" />
+      <Resource Include="Resources\WindowIcons\Icon 32x32.png" />
+      <Resource Include="Resources\WindowIcons\Icon 64x64.png" />
+      <Resource Include="Resources\WindowIcon.ico" />
+      <Resource Include="Resources\GrayscaleEffect.ps" />
+   </ItemGroup>
+
+</Project>

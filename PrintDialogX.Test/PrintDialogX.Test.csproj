@@ -1,0 +1,25 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net8.0-windows</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <UseWPF>true</UseWPF>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Newtonsoft.Json" Version="13.0.3" />
+    <PackageReference Include="QRCoder" Version="1.6.0" />
+    <PackageReference Include="ZXing.Net" Version="0.16.9" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\PrintDialogX\PrintDialogX.csproj" />
+  </ItemGroup>
+
+  <Target Name="PostBuild" AfterTargets="PostBuildEvent">
+    <Exec Command="mkdir Config&#xD;&#xA;xcopy &quot;$(ProjectDir)\Config\*.*&quot; &quot;$(TargetDir)\Config&quot; /S /Y /I /E&lt;NUL:" />
+  </Target>
+
+</Project>
