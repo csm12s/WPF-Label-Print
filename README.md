@@ -1,12 +1,25 @@
 **WPF-Label-Print**
 
+**WPF标签打印**
+
 WPF Label Print using XAML template
+
+WPF标签打印，使用XAML作为标签模版, 基于System.Printing.PrintQueue
+
+C#.Net7 WPF, System.Printing.PrintQueue
+
+Github Url: https://github.com/csm12s/WPF-Label-Print
 
 **Features:**
 
   1),  Support type: Image, Barcode, QRCode
+
+  支持类型：图片，条形码，二维码等
   
-  2),  Support some label printer
+  2),  Support some 3rd party label printer
+
+  支持某些国产打印机
+
 
 based on this project, modified System.Printing.PrintQueue to support label priter: https://github.com/Fei-Sheng-Wu/PrintDialogX
 
@@ -24,6 +37,10 @@ Print Preview:
 
 ![image](https://github.com/user-attachments/assets/9a5eea64-f85f-4acf-90e2-06d50e8a9bcd)
 
+
+**定制功能**
+
+比例数量：按照零件实际数量或者其百分比现实标签打印预览
 
 
 
