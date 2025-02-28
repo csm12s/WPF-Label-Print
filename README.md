@@ -21,18 +21,18 @@ Github Url: https://github.com/csm12s/WPF-Label-Print
   支持某些国产打印机
 
 
-based on this project, modified System.Printing.PrintQueue to support label priter: https://github.com/Fei-Sheng-Wu/PrintDialogX
+based on this project, modified System.Printing.PrintQueue to support label printer: https://github.com/Fei-Sheng-Wu/PrintDialogX
 
 Blazor Excel report editor and label/pdf print: https://github.com/csm12s/Blazor-Report-Editor
 
 Image:
 
-XAML Template:
+XAML Template 标签模版:
 
 ![image](https://github.com/user-attachments/assets/c6be8227-6741-482c-a601-2e44c910c91f)
 
 
-Print Preview:
+Print Preview 打印预览:
 
 
 ![image](https://github.com/user-attachments/assets/9a5eea64-f85f-4acf-90e2-06d50e8a9bcd)
